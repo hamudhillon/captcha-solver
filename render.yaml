@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: captcha-solver
+    env: docker
+    plan: free
+    autoDeploy: true
